@@ -1,0 +1,125 @@
+.responsive{
+    width: 1366px;
+    margin: auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+nav img{
+    width: 80px;
+    border-radius: 100%;
+}
+nav ol{
+    list-style: none;
+    margin: 0; 
+    padding: 0;
+    display: flex;
+    gap: 10px 0;
+    flex-wrap: wrap;
+}
+nav li a{
+    color: black;
+    text-decoration: none;
+    padding: 4px 8px;
+    border: black 1px solid;
+}
+#Home{
+    height: 578px;
+}
+#Portofolio #images{
+    display: flex;
+    gap: 40px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+#Portofolio #images img{
+    border-radius: 100%;
+}
+#MessageUs{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+#MessageUs h1{
+    width: 100%;
+}
+#MessageUs #result{
+    border: solid black 1px;
+}
+#MessageUs p{
+    margin: 8px;
+}
+footer{
+    text-align: end;
+}
+
+@media (max-width: 1366px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+
+#OurProfile {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+#OurProfile .banner {
+    width: 100%;
+    height: 300px;
+    background-image: url('/images/company.jfif');
+    background-size: cover;
+    background-position: center;
+}
+
+#OurProfile ol{
+    margin: 0;
+    padding-left: 20px;
+}
+#OurProfile li{
+    color: #555;
+}
+
+#OurProfile .container {
+    max-width: 960px;
+    margin: 30px auto;
+    padding: 0 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+#OurProfile section {
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+#OurProfile section:last-child {
+    border-bottom: none;
+}
+
+#OurProfile h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#OurProfile p {
+    color: #555;
+}
+
+@media (max-width: 768px) {
+    #OurProfile  .banner {
+    height: 200px;
+    }
+
+    #OurProfile .container {
+    margin: 15px;
+    }
+}
